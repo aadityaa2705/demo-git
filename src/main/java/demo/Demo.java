@@ -1,7 +1,15 @@
 package demo;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Demo {
     public static void main(String[] args) {
-        System.out.println("demo");
+
+        List<String> list = Arrays.asList("str1","str2");
+
+        list.forEach(str->{
+            System.out.println(str);
+        });
     }
 }
